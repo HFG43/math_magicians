@@ -133,10 +133,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
- **[Complete project details]**
- **[Add Components]**
- **[Add Events]**
- **[Fetch Data from API]**
+- **[Complete project details]**
+- **[Add Components]**
+- **[Add Events]**
+- **[Fetch Data from API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
