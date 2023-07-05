@@ -11,7 +11,8 @@ const NumberPad = () => (
     <p>7</p>
     <p>8</p>
     <p>9</p>
-    <p>.</p>
+    <p id="calc_num_pad_zero">0</p>
+    <p id="calc_num_pad_dot">.</p>
   </div>
 );
 
