@@ -1,18 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const ComplexOperation = (props) => {
+const ComplexOperation = ({ oper }) => {
   (
     <div className="calc_regular_operation">
-      <p>{props.calcAction}</p>
+      <p>{oper}</p>
     </div>
   );
 };
 
+ComplexOperation.propTypes = {
+  oper: PropTypes.string.isRequired,
+};
+
 const ComplexOperationsPad = () => (
   <div className="calc_reg_operations_pad">
-    <ComplexOperation calcAction="AC" />
-    <ComplexOperation calcAction="+/-" />
-    <ComplexOperation calcAction="%" />
+    <ComplexOperation oper="AC" />
+    <ComplexOperation oper="+/-" />
+    <ComplexOperation oper="%" />
   </div>
 );
 export default ComplexOperationsPad;
