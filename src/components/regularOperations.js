@@ -1,10 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const RegOperation = (props) => (
+const RegOperation = ({ text }) => (
   <div className="calc_regular_operation">
-    <span>{props.text}</span>
+    <span>{text}</span>
   </div>
 );
+
+RegOperation.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 const RegOperationsPad = () => (
   <div className="calc_reg_operations_pad">
