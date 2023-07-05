@@ -1,6 +1,6 @@
 import React from 'react';
-import DisplayNumbers from './DisplayNumber';
-import NumbersPad from './Numbers';
+import DisplayNumbers from './displayNumber';
+import NumbersPad from './numbers';
 import ComplexOperationsPad from './complexOperations';
 import RegOperationsPad from './regularOperations';
 
