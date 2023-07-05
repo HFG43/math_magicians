@@ -1,8 +1,8 @@
 import React from 'react';
 import DisplayNumbers from './DisplayNumber';
 import NumbersPad from './Numbers';
-import ComplexOperationsPad from './ComplexOperations';
-import RegOperationsPad from './RegularOperations';
+import ComplexOperationsPad from './complexOperations';
+import RegOperationsPad from './regularOperations';
 
 const Calculator = () => (
   <div className="calc_container">
