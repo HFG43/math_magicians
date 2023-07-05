@@ -72,6 +72,8 @@ This project is a Single Page App (SPA) calculator.
 - **[Use GitFlow]**
 - **[Install and Review Linters]**
 - **[Install React Librery]**
+- **[Add Components]**
+- **[Generate display of Calculator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +136,6 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Complete project details]**
-- **[Add Components]**
 - **[Add Events]**
 - **[Fetch Data from API]**
 
