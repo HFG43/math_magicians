@@ -1,18 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const DisplayNumbers = ({ calcResult }) => (
-  <div className="calc_display_result">
-    {calcResult}
-  </div>
-);
-
-DisplayNumbers.propTypes = {
-  calcResult: PropTypes.string,
+const DisplayNumbers = ({ operationResult }) => {
+  console.log(operationResult);
+  const { next, total, operation } = operationResult;
+  return (
+    <div className="calc_display_result">
+      {total || ''}
+      {operation || ''}
+      {next || ''}
+    </div>
+  );
 };
 
-DisplayNumbers.defaultProps = {
-  calcResult: '0',
+DisplayNumbers.propTypes = {
+  operationResult: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
 export default DisplayNumbers;

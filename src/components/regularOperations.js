@@ -1,15 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import calculate from '../logic/calculate';
 
-function RegOperation({ operation }) {
-  const handleRegularClick = () => {
-    const result = calculate({}, operation);
-    console.log(result);
-  };
+function RegOperation({ operation, handleClick }) {
   return (
     <div className="calc_regular_operation">
-      <button type="button" onClick={handleRegularClick}>
+      <button type="button" onClick={() => { handleClick(operation); }}>
         {operation}
       </button>
     </div>
@@ -18,16 +13,21 @@ function RegOperation({ operation }) {
 
 RegOperation.propTypes = {
   operation: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
-const RegOperationsPad = () => (
+const RegOperationsPad = ({ handleClick }) => (
   <div className="calc_reg_operations_pad">
-    <RegOperation operation="÷" />
-    <RegOperation operation="x" />
-    <RegOperation operation="-" />
-    <RegOperation operation="+" />
-    <RegOperation operation="=" />
+    <RegOperation handleClick={handleClick} operation="÷" />
+    <RegOperation handleClick={handleClick} operation="x" />
+    <RegOperation handleClick={handleClick} operation="-" />
+    <RegOperation handleClick={handleClick} operation="+" />
+    <RegOperation handleClick={handleClick} operation="=" />
   </div>
 );
+
+RegOperationsPad.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
 
 export default RegOperationsPad;
