@@ -5,8 +5,12 @@
   font-size: 16px;
 }
 
-#root {
-  margin: 15% 35% 0 35%;
+.app {
+  margin: 12px 35% 0 35%;
+}
+
+.ninja_quote {
+  margin: 12px 25% 0 25%;
 }
 
 .calc_container {
@@ -79,4 +83,18 @@
   font-size: 24px;
   height: auto;
   padding: 0.5% 0 2.5% 0;
+}
+
+.ninja_quote_container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0%;
+}
+
+.ninja_quote_container div {
+  font-size: 1rem;
+  background-color: aqua;
+  margin: 6px;
+  width: 200%;
 }
