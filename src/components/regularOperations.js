@@ -1,24 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const RegOperation = ({ text }) => (
-  <div className="calc_regular_operation">
-    <span>{text}</span>
-  </div>
-);
+function RegOperation({ operation, handleClick }) {
+  return (
+    <div className="calc_regular_operation">
+      <button type="button" onClick={() => { handleClick(operation); }}>
+        {operation}
+      </button>
+    </div>
+  );
+}
 
 RegOperation.propTypes = {
-  text: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
-const RegOperationsPad = () => (
+const RegOperationsPad = ({ handleClick }) => (
   <div className="calc_reg_operations_pad">
-    <RegOperation text="/" />
-    <RegOperation text="X" />
-    <RegOperation text="*" />
-    <RegOperation text="+" />
-    <RegOperation text="=" />
+    <RegOperation handleClick={handleClick} operation="÷" />
+    <RegOperation handleClick={handleClick} operation="x" />
+    <RegOperation handleClick={handleClick} operation="-" />
+    <RegOperation handleClick={handleClick} operation="+" />
+    <RegOperation handleClick={handleClick} operation="=" />
   </div>
 );
+
+RegOperationsPad.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
 
 export default RegOperationsPad;

@@ -73,7 +73,8 @@ This project is a Single Page App (SPA) calculator.
 - **[Install and Review Linters]**
 - **[Install React Librery]**
 - **[Add Components]**
-- **[Generate display of Calculator]**
+- **[Generate basic calculations]**
+- **[Use events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +137,6 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Complete project details]**
-- **[Add Events]**
 - **[Fetch Data from API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,10 +146,9 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/HFG43/math_magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 

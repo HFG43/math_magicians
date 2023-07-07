@@ -1,21 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ComplexOperation = ({ oper }) => (
-  <div className="calc_complex_operation">
-    <p>{oper}</p>
-  </div>
-);
+function ComplexOperation({ buttonName, handleClick }) {
+  return (
+    <div className="calc_complex_operation">
+      <button type="button" onClick={() => { handleClick(buttonName); }}>{buttonName}</button>
+    </div>
+  );
+}
 
 ComplexOperation.propTypes = {
-  oper: PropTypes.string.isRequired,
+  buttonName: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
-const ComplexOperationsPad = () => (
+const ComplexOperationsPad = ({ handleClick }) => (
   <div className="calc_complex_operations_pad">
-    <ComplexOperation oper="AC" />
-    <ComplexOperation oper="+/-" />
-    <ComplexOperation oper="%" />
+    <ComplexOperation handleClick={handleClick} buttonName="AC" />
+    <ComplexOperation handleClick={handleClick} buttonName="+/-" />
+    <ComplexOperation handleClick={handleClick} buttonName="%" />
   </div>
 );
+
+ComplexOperationsPad.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
+
 export default ComplexOperationsPad;

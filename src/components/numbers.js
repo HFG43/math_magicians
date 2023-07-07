@@ -1,19 +1,37 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const NumberPad = () => (
+function Numbers({ number, handleClickNumber }) {
+  return (
+    <span>
+      <button type="button" id={number} onClick={() => { handleClickNumber(number); }}>
+        {number}
+      </button>
+    </span>
+  );
+}
+Numbers.propTypes = {
+  number: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  handleClickNumber: PropTypes.func.isRequired,
+};
+
+const NumberPad = ({ handleClickNumber }) => (
   <div className="calc_num_pad">
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>5</p>
-    <p>6</p>
-    <p>7</p>
-    <p>8</p>
-    <p>9</p>
-    <p id="calc_num_pad_zero">0</p>
-    <p id="calc_num_pad_dot">.</p>
+    <Numbers handleClickNumber={handleClickNumber} number="1" />
+    <Numbers handleClickNumber={handleClickNumber} number="2" />
+    <Numbers handleClickNumber={handleClickNumber} number="3" />
+    <Numbers handleClickNumber={handleClickNumber} number="4" />
+    <Numbers handleClickNumber={handleClickNumber} number="5" />
+    <Numbers handleClickNumber={handleClickNumber} number="6" />
+    <Numbers handleClickNumber={handleClickNumber} number="7" />
+    <Numbers handleClickNumber={handleClickNumber} number="8" />
+    <Numbers handleClickNumber={handleClickNumber} number="9" />
+    <Numbers handleClickNumber={handleClickNumber} number="0" />
+    <Numbers handleClickNumber={handleClickNumber} number="." />
   </div>
 );
 
+NumberPad.propTypes = {
+  handleClickNumber: PropTypes.func.isRequired,
+};
 export default NumberPad;
