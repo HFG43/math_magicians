@@ -2,12 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const DisplayNumbers = ({ operationResult }) => {
-  console.log(operationResult);
   const { next, total, operation } = operationResult;
   return (
     <div className="calc_display_result">
       {total || ''}
+      {' '}
       {operation || ''}
+      {' '}
       {next || ''}
     </div>
   );
