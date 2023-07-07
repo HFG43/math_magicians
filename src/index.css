@@ -9,11 +9,6 @@
   margin: 15% 35% 0 35%;
 }
 
-button {
-  height: 100%;
-  width: 100%;
-}
-
 .calc_container {
   width: 100%;
   display: grid;
@@ -41,6 +36,11 @@ button {
   font-size: 0.7rem;
 }
 
+.calc_complex_operations_pad button {
+  height: 2.5rem;
+  width: 100%;
+}
+
 .calc_complex_operation {
   width: 33.33%;
   border: 1px solid grey;
@@ -53,43 +53,30 @@ button {
   grid-area: 2 / 4 / 7 / 5;
 }
 
-.calc_regular_operation {
-  /* width: 100%; */
+.calc_regular_operation button {
   height: 2.5rem;
+  width: 100%;
   border-top: 1px solid #d1cdcd;
   background-color: rgb(239, 123, 28);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .calc_num_pad {
-  grid-area: 3 / 1 / 7 / 4;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  width: 300%;
 }
 
 .calc_num_pad button {
+  display: inline;
+  width: 33.33%;
   height: 2.5rem;
-  width: 100%;
   background-color: rgb(206, 202, 202);
   border: 1px solid grey;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.calc_num_pad_zero {
-  background-color: azure;
-}
-
-.calc_num_pad_dot {
-  width: 200%;
-  background-color: rgb(218, 236, 237);
-  font-size: 2rem;
-  display: flex;
-  border: 1px solid rgb(128, 128, 128);
-  flex-direction: column;
-  align-items: center;
+#\. {
+  width: 66%;
+  font-size: 24px;
+  height: auto;
+  padding: 1% 0 3.5% 0;
 }
