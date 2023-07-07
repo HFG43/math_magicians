@@ -21,7 +21,11 @@ function Quote() {
   }, []);
   return (
     <div className="ninja_quote_container">
-      <div>{quote[0]?.author}</div>
+      <div>
+        Author:
+        {' '}
+        {quote[0]?.author}
+      </div>
       <div>{quote[0]?.quote}</div>
       <div>{quote[0]?.category}</div>
     </div>
