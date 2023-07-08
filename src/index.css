@@ -5,16 +5,19 @@
   font-size: 16px;
 }
 
-#root {
-  margin: 15% 35% 0 35%;
+.app {
+  margin: 12px 35% 0 35%;
+}
+
+.ninja_quote {
+  margin-top: 12px;
 }
 
 .calc_container {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(5, 2.5rem);
-  height: 15rem;
+  box-shadow: 4px 4px rgb(19, 78, 78);
 }
 
 .calc_display_result {
@@ -51,6 +54,7 @@
 
 .calc_reg_operations_pad {
   grid-area: 2 / 4 / 7 / 5;
+  background-color: rgb(19, 78, 78);
 }
 
 .calc_regular_operation button {
@@ -62,6 +66,7 @@
 
 .calc_num_pad {
   width: 300%;
+  background-color: rgb(19, 78, 78);
 }
 
 .calc_num_pad button {
@@ -69,7 +74,6 @@
   width: 33.33%;
   height: 2.5rem;
   background-color: rgb(206, 202, 202);
-  border: 1px solid grey;
   justify-content: center;
   align-items: center;
 }
@@ -77,6 +81,30 @@
 #\. {
   width: 66.66%;
   font-size: 24px;
-  height: auto;
+  height: 2.5rem;
   padding: 0.5% 0 2.5% 0;
+}
+
+.ninja_quote_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20% 0 20%;
+}
+
+.ninja_quote_container div {
+  font-size: 1rem;
+  background-color: rgb(19, 78, 78);
+  margin: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+  display: inline-flex;
+  padding: 4px;
+  justify-content: center;
+}
+
+.ninja_quote_container div:last-child {
+  color: yellow;
+  justify-content: end;
 }
