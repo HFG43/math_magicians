@@ -2,7 +2,8 @@
 
 .navbar {
   display: flex;
-  padding: 8px;
+  justify-content: space-between;
+  padding: 8px 0;
   align-items: center;
   color: rgb(10, 65, 153);
   font-weight: 600;
@@ -11,20 +12,20 @@
 }
 
 .navbar_title {
-  margin-left: 3%;
-  margin-right: 10%;
+  margin-left: 5%;
   font-size: 2rem;
 }
 
 .navbar ul {
+  margin-right: 5%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .navbar li {
   list-style: none;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 12px;
+  margin-left: 12px;
   font-size: 1.5rem;
   flex-shrink: 1.5;
 }

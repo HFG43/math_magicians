@@ -14,12 +14,15 @@ const Calculator = () => {
   };
 
   return (
-    <div className={styles.calc_container}>
-      <DisplayNumbers operationResult={operationResult} />
-      <ComplexOperationsPad handleClick={handleClick} />
-      <NumbersPad handleClickNumber={handleClick} />
-      <RegOperationsPad handleClick={handleClick} />
-    </div>
+    <>
+      <div className={styles.calc_phrase}>Let&apos;s do some math!</div>
+      <div className={styles.calc_container}>
+        <DisplayNumbers operationResult={operationResult} />
+        <ComplexOperationsPad handleClick={handleClick} />
+        <NumbersPad handleClickNumber={handleClick} />
+        <RegOperationsPad handleClick={handleClick} />
+      </div>
+    </>
   );
 };
 
