@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <ComplexOperationsPad /> correctly 1`] = `
+<div
+  className="calc_complex_operations_pad"
+>
+  <div
+    className="calc_complex_operation"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+  </div>
+  <div
+    className="calc_complex_operation"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+  </div>
+  <div
+    className="calc_complex_operation"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+  </div>
+</div>
+`;
