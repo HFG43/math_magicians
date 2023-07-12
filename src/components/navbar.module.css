@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  align-items: center;
+  color: rgb(10, 65, 153);
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+  border-bottom: 1px solid rgb(184, 183, 183);
+}
+
+.navbar_title {
+  margin-left: 5%;
+  font-size: 2rem;
+}
+
+.navbar ul {
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 12px;
+  margin-left: 12px;
+  font-size: 1.5rem;
+  flex-shrink: 1.5;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+  .navbar ul {
+    flex-wrap: nowrap;
+  }
+}

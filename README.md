@@ -31,9 +31,9 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-This project is a Single Page App (SPA) calculator.
+This project is a Single Page App (SPA) calculator, that also offers randon Leadership quotes.
 
-**[Math Magicians]** For this project, I will be using React librery.
+**[Math Magicians]** For this project, I used the React librery.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,6 +75,11 @@ This project is a Single Page App (SPA) calculator.
 - **[Add Components]**
 - **[Generate basic calculations]**
 - **[Use events]**
+- **[Use hooks]**
+- **[Use React PropTypes]**
+- **[Use React Routers]**
+- **[Use Module CSS Style & Import CSS Methods]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +142,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Complete project details]**
-- **[Fetch Data from API]**
+- **[Aplly Tests]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
