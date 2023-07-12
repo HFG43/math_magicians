@@ -4,6 +4,7 @@ import NumbersPad from './numbers';
 import ComplexOperationsPad from './complexOperations';
 import RegOperationsPad from './regularOperations';
 import calculate from '../logic/calculate';
+import styles from './calculator.module.css';
 
 const Calculator = () => {
   const [operationResult, mathOperation] = useState({});
@@ -13,7 +14,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calc_container">
+    <div className={styles.calc_container}>
       <DisplayNumbers operationResult={operationResult} />
       <ComplexOperationsPad handleClick={handleClick} />
       <NumbersPad handleClickNumber={handleClick} />

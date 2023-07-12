@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import styles from './ninja.module.css';
 
 function Quote() {
   const [quote, setQuote] = useState([]);
@@ -36,7 +37,7 @@ function Quote() {
     return <div>There info is loading... Please wait!</div>;
   }
   return (
-    <div className="ninja_quote_container">
+    <div className={styles.ninja_quote_container}>
       <div>
         Author:
         {' '}

@@ -1,0 +1,14 @@
+.calc_container {
+  width: 58%;
+  margin: 24px 20% 0 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  box-shadow: 4px 4px rgb(19, 78, 78);
+}
+
+@media all and (min-width: 768px) {
+  .calc_container {
+    width: 35%;
+    margin: 24px 32% 0 32%;
+  }
+}

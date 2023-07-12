@@ -1,0 +1,23 @@
+.ninja_quote_container {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 20% 0 20%;
+}
+
+.ninja_quote_container div {
+  font-size: 1rem;
+  background-color: rgb(19, 78, 78);
+  margin: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+  display: inline-flex;
+  padding: 4px;
+  justify-content: center;
+}
+
+.ninja_quote_container div:last-child {
+  color: yellow;
+  justify-content: end;
+}
