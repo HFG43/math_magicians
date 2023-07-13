@@ -116,7 +116,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 To run tests, run the following command:
 
-No test available yet.
+`npm test`
 
 ### Deployment
 
