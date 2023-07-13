@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
  
 <h3><b>README</b></h3>
@@ -27,7 +26,6 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
@@ -69,17 +67,16 @@ This project is a Single Page App (SPA) calculator, that also offers randon Lead
 
 ### Key Features <a name="key-features"></a>
 
-- **[Use GitFlow]**
-- **[Install and Review Linters]**
-- **[Install React Librery]**
-- **[Add Components]**
+- **[Use of GitFlow]**
+- **[Use of Linters]**
+- **[Use of React Library]**
+- **[Components]**
 - **[Generate basic calculations]**
-- **[Use events]**
-- **[Use hooks]**
-- **[Use React PropTypes]**
-- **[Use React Routers]**
-- **[Use Module CSS Style & Import CSS Methods]**
-
+- **[Use of events]**
+- **[Use of hooks]**
+- **[Use of React PropTypes]**
+- **[Use of React Routers]**
+- **[Use of Module CSS Style & Import CSS Methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,6 +89,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Open on Visual Studio Code or any other code reader, and use an app as Live Server to review online.
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -101,9 +99,9 @@ git clone https://github.com/HFG43/math_magicians
 ### Install
 
 Open index.html file with your Code Editor, and review the behaviour of the page under different sizes.
-On the command Line run 
+On the command Line run
 
-npm install 
+npm install
 
 to install dependencies in package.json. This will make the app work.
 
@@ -128,7 +126,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Hernán Güemes**
@@ -137,15 +134,19 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
 
+👤 **Arthur Iturres**
+
+- GitHub: [@ITurres](https://github.com/ITurres)
+- Twitter: [@Arthur_ITurres](https://twitter.com/ArthurIturres)
+- LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Complete project details]**
-- **[Aplly Tests]**
-
+- **[Deploy]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -166,7 +167,6 @@ If you like this project, please Star it!
 I will like to thank Microverse and their Code Reviewers!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
