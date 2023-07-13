@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Quote /> correctly 1`] = `
+<div>
+  There info is loading... Please wait!
+</div>
+`;
