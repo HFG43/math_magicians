@@ -31,7 +31,7 @@
 
 This project is a Single Page App (SPA) calculator, that also offers randon Leadership quotes.
 
-**[Math Magicians]** For this project, I used the React librery.
+**[Math Magicians]** For this project, I used the React librery and it is deployed using Render.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -122,7 +122,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-([My portfolio deployment link]) Not available yet.
+([My portfolio deployment link]) (https://react-calculator-app.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Complete project details]**
-- **[Deploy]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
