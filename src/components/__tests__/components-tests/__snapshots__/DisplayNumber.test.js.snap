@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <DisplayNumbers /> correctly 1`] = `
+<div
+  className="calc_display_result"
+>
+   
+  +
+   
+  5
+</div>
+`;
