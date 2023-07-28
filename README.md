@@ -122,7 +122,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-([My portfolio deployment link]) (https://react-calculator-app.onrender.com/)
+([My portfolio deployment link]) (https://react-calculator-zceq.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
